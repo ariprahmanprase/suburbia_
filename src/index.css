@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --main-color: #FFFFFF;
+    --second-color: #FD0000;
+    --third-color: #FFE400;
+    --body-color: #000000;
+
+    --main-font: 'Noto Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--main-font);
+}
+
+.container {
+    max-width: 1200px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,4 +35,113 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar .navbar-wrapper{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.50);
+}
+
+.navbar-wrapper .menu {
+  display: flex;
+  gap :20px;
+}
+
+.menu .menulink {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+.navbar-wrapper .btn-uncoming-show {
+  padding: 10px;
+  background-color: var(--third-color);
+  border-radius: 10px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+}
+.form {
+  margin: auto;
+  margin-top: -200px;
+}
+
+.form .headingform {
+  font-size: 32px;
+  font-weight: 700;
+  color: #FD0000;
+}
+
+.form .parform {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--main-color);
+  width: 297px;
+}
+
+.form .button {
+  margin-top: 20px;
+}
+
+.form .button .buttonform{
+  padding: 10px 45px;
+  background-color: var(--main-color);
+  color: var(--body-color);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+@media screen and (max-width :768px){
+  .container {
+    width: 340px;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  .navbar .navbar-wrapper {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.50);
+  }
+
+  .navbar .navbar-wrapper .fotologo {
+    max-width: 90px;
+  }
+
+  .navbar .navbar-wrapper .menu {
+    display: none;
+  }
+  .row .col .hero1 {
+    margin-top: 100px;
+    max-width: 320px;
+  }
+
+  .form {
+    margin: auto;
+    margin-top: 50px;
+  }
 }

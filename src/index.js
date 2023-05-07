@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import Hero from './components/hero/Hero';
+import FormHero from './components/hero/FormHero';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <div className="image-wrapper">
     <Hero />
     </div>
+    <FormHero />
   </React.StrictMode>
 );
 

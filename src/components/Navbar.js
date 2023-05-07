@@ -1,5 +1,7 @@
-import './Navbar.css';
-import Fotologo from "../../src/Image/Logo Suburbia.png"
+
+import Fotologo from "../../src/Image/Logo Suburbia.png";
+import "../index.css";
+
 
 const Navbar = () => {
     return (
