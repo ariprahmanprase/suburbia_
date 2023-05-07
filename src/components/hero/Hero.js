@@ -10,6 +10,9 @@ export default function Hero() {
         <div className="col">
           <img src={fotoCoba} alt="" className='hero1'/>
         </div>
+        <div className="col-auto">
+          <img src={fotoCoba} alt="" />
+        </div>
       </div>
    </section>
   )
