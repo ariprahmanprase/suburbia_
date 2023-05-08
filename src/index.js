@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/hero/Hero';
 import FormHero from './components/hero/FormHero';
 import RecentEvent from './components/RecentEvent';
+import UncomingEvent from './components/UncomingEvent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     </div>
     <FormHero />
     <RecentEvent />
+    <UncomingEvent />
   </React.StrictMode>
 );
 

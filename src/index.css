@@ -118,12 +118,12 @@ code {
   margin: auto;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
 }
 
 
-.deskripsirecent .galerirececent {
+.deskripsirecent .galerirecent {
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -133,14 +133,70 @@ code {
   color: var(--main-color);
   font-size: 44px;
   font-weight: 700;
-  margin-top: 32px;
+  margin-top: 25px;
 }
 
 .parrecent {
   color: var(--main-color);
   font-size: 16px;
   max-width: 482px;
-  margin-bottom: 32px;
+  margin-bottom: 25px;
+}
+
+.buttonrecent {
+  display: flex;
+  gap: 25px;
+}
+
+.buttonrecent .seegalery {
+  padding: 10px 39px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  color: var(--body-color);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonrecent .uncomingshow {
+  padding: 10px 14px;
+  border: 2px solid var(--main-color);
+  border-radius: 10px;
+  color: var(--main-color);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.headinguncoming {
+  margin: auto;
+  color: var(--main-color);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.uncomingwrapper {
+  margin: auto;
+  display: flex;
+  gap: 30px;
+}
+
+.uncomingwrapper .juduluncoming {
+  color: var(--main-color);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.uncomingwrapper .ketuncoming {
+  color: var(--main-color);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.uncomingwrapper .artist {
+  color: var(--main-color);
+  font-size: 16px;
+  font-weight: 400;
 }
 
 @media screen and (max-width :768px){
