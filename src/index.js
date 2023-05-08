@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import Hero from './components/hero/Hero';
 import FormHero from './components/hero/FormHero';
+import RecentEvent from './components/RecentEvent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Hero />
     </div>
     <FormHero />
+    <RecentEvent />
   </React.StrictMode>
 );
 

@@ -5,12 +5,10 @@ import "../../../src/index.css"
 
 export default function Hero() {
   return (
-    <section>
       <div className="row">
         <div className="col">
           <img src={fotoCoba} alt="" className='hero1'/>
         </div>
       </div>
-   </section>
   )
 }

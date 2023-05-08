@@ -22,13 +22,12 @@
     max-width: 1200px;
 }
 
+section {
+  margin-top: 150px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background-color: black;
 }
 
@@ -105,6 +104,45 @@ code {
   font-weight: 800;
 }
 
+.headingrecent {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--main-color);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.recentevent-wrapper {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.deskripsirecent .galerirececent {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.judulrecent {
+  color: var(--main-color);
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 32px;
+}
+
+.parrecent {
+  color: var(--main-color);
+  font-size: 16px;
+  max-width: 482px;
+  margin-bottom: 32px;
+}
+
 @media screen and (max-width :768px){
   .container {
     width: 340px;
@@ -143,5 +181,9 @@ code {
   .form {
     margin: auto;
     margin-top: 50px;
+  }
+
+  .recentevent-wrapper {
+    margin: auto;
   }
 }
