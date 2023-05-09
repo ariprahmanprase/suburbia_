@@ -199,6 +199,51 @@ code {
   font-weight: 400;
 }
 
+.headergaleries {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.galerieswrapper {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardgaleries {
+  width: 277px;
+}
+
+.cardgaleries .deskgaleries {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: end;
+}
+
+.colrightgaleries .judulgaleries {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.colrightgaleries .tahungaleries {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.linkseemoregaleries .seemoregaleries{
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--third-color);
+}
+
 @media screen and (max-width :768px){
   .container {
     width: 340px;
