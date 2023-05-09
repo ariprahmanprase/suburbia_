@@ -1,6 +1,9 @@
 import React from 'react'
 import "../index.css";
 import Galeri1 from "../Image/galeries-1.png";
+import Galeri2 from "../Image/galeries-2.png";
+import Galeri3 from "../Image/galeries-3.png";
+import Galeri4 from "../Image/galeries-4.png";
 
 export default function Galeries() {
   return (
@@ -21,10 +24,10 @@ export default function Galeries() {
                 </div>
             </div>
             <div className="cardgaleries">
-                <img src={Galeri1} alt="" className="gbrgaleries" />
+                <img src={Galeri2} alt="" className="gbrgaleries" />
                 <div className="deskgaleries">
                     <div className="colrightgaleries">
-                        <h1 className="judulgaleries">Menelisik #1</h1>
+                        <h1 className="judulgaleries">Graveyard</h1>
                         <p className="tahungaleries">2021</p>
                     </div>
                         <div className="linkseemoregaleries">  <a href="#" className="seemoregaleries">See More..</a>
@@ -32,10 +35,10 @@ export default function Galeries() {
                 </div>
             </div>
             <div className="cardgaleries">
-                <img src={Galeri1} alt="" className="gbrgaleries" />
+                <img src={Galeri3} alt="" className="gbrgaleries" />
                 <div className="deskgaleries">
                     <div className="colrightgaleries">
-                        <h1 className="judulgaleries">Menelisik #1</h1>
+                        <h1 className="judulgaleries">Menelisik #2</h1>
                         <p className="tahungaleries">2021</p>
                     </div>
                         <div className="linkseemoregaleries">  <a href="#" className="seemoregaleries">See More..</a>
@@ -43,10 +46,10 @@ export default function Galeries() {
                 </div>
             </div>
             <div className="cardgaleries">
-                <img src={Galeri1} alt="" className="gbrgaleries" />
+                <img src={Galeri4} alt="" className="gbrgaleries" />
                 <div className="deskgaleries">
                     <div className="colrightgaleries">
-                        <h1 className="judulgaleries">Menelisik #1</h1>
+                        <h1 className="judulgaleries">Kupatisme</h1>
                         <p className="tahungaleries">2021</p>
                     </div>
                         <div className="linkseemoregaleries">  <a href="#" className="seemoregaleries">See More..</a>

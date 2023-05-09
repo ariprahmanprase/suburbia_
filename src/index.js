@@ -8,6 +8,7 @@ import FormHero from './components/hero/FormHero';
 import RecentEvent from './components/RecentEvent';
 import UncomingEvent from './components/UncomingEvent';
 import Galeries from './components/Galeries';
+import Merchandise from './components/Merchandise';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
     <RecentEvent />
     <UncomingEvent />
     <Galeries />
+    <Merchandise />
   </React.StrictMode>
 );
 

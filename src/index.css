@@ -244,6 +244,82 @@ code {
   color: var(--third-color);
 }
 
+.headermerch {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.merchwrapper {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.cardmerch {
+  width: 277px;
+  height: 390px;
+  border: 2px solid #888888;
+  border-radius: 10px;
+}
+
+.cardmerch .gbrmerch{
+  border-radius: 10px;
+  width: 274px;
+}
+
+.cardmerch .deskmerch {
+  margin-top: 10px;
+  align-items: end;
+  margin-left: 14px;
+}
+
+.colrightmerch .judulmerch {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--main-color);
+  margin-top: 6px;
+}
+
+.colrightmerch .stokmerch {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.colrightmerch .stokmerch .hargamerch {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.colrightmerch .stokmerch .uk {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--body-color);
+  padding: 0px 3px;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+}
+
+.colrightmerch {
+  margin-bottom: 15px;
+}
+
+.btnmerch{
+  padding: 5px 26px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--body-color);
+  border-radius: 4px;
+}
+
 @media screen and (max-width :768px){
   .container {
     width: 340px;
